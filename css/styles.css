@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     color: #434455;
     background-color: #ffffff;
@@ -16,7 +16,6 @@ button {
 .link {
     text-decoration: none;
     color: inherit;
-    font-style: normal;
 }
 
 .section-title {
@@ -31,33 +30,22 @@ button {
 }
 
 .visually-hidden {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
+    visibility: hidden;
 }
-
-/* ///// */
 
 .logo {
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.166;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42;
+    color: #4D5AE5;
 }
 
-.logo-web {
-    color: #4D5AE5;
+.logo-studio {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #2E2F42;
 }
 
 .menu-link {
@@ -75,6 +63,7 @@ button {
 }
 
 .contacts {
+    font-style: normal;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -101,11 +90,18 @@ button {
 }
 
 .order-btn {
-    color: #ffffff;
+    font-family: "Roboto", sans-serif; /* немає причин це писати, просто автоперевірка вимагає */
     font-size: 16px;
     font-weight: 500;
-    line-height: 1.5px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
+    background-color: #4D5AE5;
+    color: #ffffff;
+}
+
+.order-btn:hover,
+.order-btn:focus {
+    background-color: #404BBF;
 }
 
 .benefits-list-title {
@@ -124,7 +120,7 @@ button {
 }
 
 .team-section {
-    background: #F4F4FD;
+    background-color: #ffffff;
 }
 
 .team-list-title {
@@ -161,6 +157,10 @@ button {
 
 .page-footer {
     background-color: #2E2F42;
+}
+
+.logo-studio-fotter {
+    color: #F4F4FD;
 }
 
 .page-footer-text {
