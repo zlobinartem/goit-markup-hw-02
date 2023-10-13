@@ -120,6 +120,10 @@ button {
 }
 
 .team-section {
+    background-color: #F4F4FD;
+}
+
+.team-list-item {
     background-color: #ffffff;
 }
 
